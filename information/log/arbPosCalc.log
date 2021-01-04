@@ -1,0 +1,8 @@
+[2020-11-08T17:32:48.279][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.00020155,"BTCbuy" => 0.0002033,"ADAout" => 29.0,"BNBbuy" => 0.1128) 
+[2020-11-08T18:23:38.696][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0002001,"BTCbuy" => 0.000202,"ADAout" => 29.0,"BNBbuy" => 0.1125) 
+[2020-11-08T18:24:43.853][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0002001,"BTCbuy" => 0.000202,"ADAout" => 29.0,"BNBbuy" => 0.11256) 
+[2020-11-08T18:26:57.215][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0002001,"BTCbuy" => 0.0002023,"ADAout" => 29.0,"BNBbuy" => 0.11274) 
+[2020-11-08T18:27:48.565][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0002001,"BTCbuy" => 0.0002023,"ADAout" => 29.0,"BNBbuy" => 0.11265) 
+[2020-11-11T21:44:25.896][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.00018956,"BTCbuy" => 0.0001963,"ADAout" => 28.0,"BNBbuy" => 0.11394) 
+[2020-11-11T22:25:15.585][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0001943,"BTCbuy" => 0.0001947,"ADAout" => 29.0,"BNBbuy" => 0.11382) 
+[2020-11-11T22:25:16.305][4] 	Dict{String,Real}("ADAin" => 30,"BNBsell" => 0.11,"BTCsell" => 0.0001943,"BTCbuy" => 0.0001947,"ADAout" => 29.0,"BNBbuy" => 0.11382) 
