@@ -1,11 +1,10 @@
-# Проверить работу скрипта на BNBUSDT возможно будет работать лучше
-# Посмотреть, может ли он обновлять интервалы корректно?
-# Построить среднюю скользящую, и сравнить с бинансом (сначала залогировать, потом сохранить)
-# Заработало, надо тестануть
+# Данна программа записывает котировку (макс и мин цены, цену открытия и закрытие, объём торгов) каждую минуту
 
 using LibPQ, HTTP,  JSON, Dates
 include("/home/rosenrot/tradeBinance/robots/source/binanceAPI.jl")
 include("/home/rosenrot/tradeBinance/robots/source/source.jl")
+
+src.logging("common.log", 0, "Старт поминутного вебсокета")
 
 while true
     try
@@ -28,11 +27,15 @@ while true
                     try
                         kline = JSON.parse(String(readavailable(io)))
                         @async inDB(kline)
-                    catch
+                    catch err
+                        src.logging("common.log", 4, "Поминутный вебсокет: $err\n")
                     end
                 end
             end
         end
-    catch
+    catch err
+        src.logging("common.log", 3, "Kline: $err\n")
     end
 end
+
+src.logging("common.log", 0, "Стоп поминутного вебсокета")
