@@ -4,3 +4,9 @@
 [2021-05-05T20:59:21.161][0] 	Start SMA.jl 
 [2021-05-05T22:26:20.878][0] 	Start SMA.jl 
 [2021-05-06T00:49:21.623][0] 	Start SMA.jl 
+[2021-05-06T01:00:14.627][0] 	Start jit_log_updater.jl 
+[2021-05-06T04:00:26.786][0] 	Start SMA.jl 
+[2021-05-06T06:30:40.458][0] 	Start kline_BTCUSDT_1m.jl 
+[2021-05-06T06:47:48.063][0] 	Start SMA.jl 
+[2021-05-06T08:04:20.77][0] 	Start SMA.jl 
+[2021-05-06T19:51:18.582][0] 	Start SMA.jl 

@@ -4,7 +4,7 @@ using LibPQ, HTTP,  JSON, Dates
 include("/home/rosenrot/tradeBinance/robots/source/binanceAPI.jl")
 include("/home/rosenrot/tradeBinance/robots/source/source.jl")
 
-src.logging("common.log", 0, "Старт поминутного вебсокета")
+src.logging("common.log", 0, "Start kline_BTCUSDT_1m.jl")
 
 while true
     try
@@ -28,14 +28,14 @@ while true
                         kline = JSON.parse(String(readavailable(io)))
                         @async inDB(kline)
                     catch err
-                        src.logging("common.log", 4, "Поминутный вебсокет: $err\n")
+                        # src.logging("common.log", 4, "Поминутный вебсокет: $err\n")
                     end
                 end
             end
         end
     catch err
-        src.logging("common.log", 3, "Kline: $err\n")
+        src.logging("common.log", 0, "Failed to run kline_BTCUSDT_1m.jl")
     end
 end
 
-src.logging("common.log", 0, "Стоп поминутного вебсокета")
+# src.logging("common.log", 0, "Стоп поминутного вебсокета")
