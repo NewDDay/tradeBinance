@@ -15,3 +15,13 @@
 [2021-05-06T20:50:18.929][0] 	Start SMA.jl 
 [2021-05-06T22:10:22.041][0] 	Start SMA.jl 
 [2021-05-06T22:12:20.782][0] 	Start SMA.jl 
+[2021-05-07T01:00:27.351][0] 	Start jit_log_updater.jl 
+[2021-05-07T02:31:22.032][0] 	Start SMA.jl 
+[2021-05-07T09:32:30.77][0] 	Start SMA.jl 
+[2021-05-07T09:33:29.502][0] 	Start kline_BTCUSDT_1m.jl 
+---
+[2021-05-07T13:45:20.475][0] 	Start SMA.jl 
+[2021-05-07T16:00:23.591][0] 	Start SMA.jl 
+[2021-05-07T16:08:20.06][0] 	Start SMA.jl 
+[2021-05-07T17:05:22.262][0] 	Start SMA.jl 
+[2021-05-07T19:47:20.143][0] 	Start kline_BTCUSDT_1m.jl 
