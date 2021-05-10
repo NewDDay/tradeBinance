@@ -26,3 +26,4 @@
 [2021-05-07T17:05:22.262][0] 	Start SMA.jl 
 [2021-05-07T19:47:20.143][0] 	Start kline_BTCUSDT_1m.jl 
 [2021-05-08T01:00:14.059][0] 	Start jit_log_updater.jl 
+[2021-05-09T01:00:13.343][0] 	Start jit_log_updater.jl 
