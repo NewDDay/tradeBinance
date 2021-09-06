@@ -142,3 +142,5 @@
 [2021-08-28T01:00:11.858][0] 	Start jit_log_updater.jl 
 [2021-08-29T01:00:13.399][0] 	Start jit_log_updater.jl 
 [2021-08-30T01:00:14.034][0] 	Start jit_log_updater.jl 
+[2021-08-31T01:00:11.947][0] 	Start jit_log_updater.jl 
+[2021-09-05T15:59:22.557][0] 	Start kline_BTCUSDT_1m.jl 
